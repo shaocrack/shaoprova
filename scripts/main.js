@@ -220,12 +220,12 @@
       document.querySelector('.love').style.display = 'block';
       
     }, 3000); 
-    setTimeout(function() {
-      document.getElementById('youtubeButton').style.display = 'block'; // Mostrar el botón después de 15 segundos // 15 segundos de espera
-      document.getElementById('youtubeButton').addEventListener('click', function () {
-        window.open('https://youtu.be/PHuYfmnA1d4?t=26', '_blank');
-      });
-    }, 60000); // 15 segundos de espera
+    // setTimeout(function() {
+    //   document.getElementById('youtubeButton').style.display = 'block'; // Mostrar el botón después de 15 segundos // 15 segundos de espera
+    //   document.getElementById('youtubeButton').addEventListener('click', function () {
+    //     window.open('https://youtu.be/PHuYfmnA1d4?t=26', '_blank');
+    //   });
+    // }, 60000); // 15 segundos de espera
   // }, 4000);
   // mp3.play()
 })(window)
