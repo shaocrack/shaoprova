@@ -23,7 +23,7 @@ document.getElementById('animateButton').addEventListener('click', function() {
           const videoButton = document.getElementById('videoButton');
           videoButton.style.display = 'block';
           videoButton.addEventListener('click', function() {
-              window.location.href = 'https://youtu.be/PHuYfmnA1d4?t=26';
+              window.location.href = 'https://youtu.be/78AtIbSh1es?t=23';
           });
           // Agregar mensaje final
           const finalMessageBox = document.createElement('div');
