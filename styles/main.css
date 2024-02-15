@@ -1,6 +1,7 @@
 *{
     margin:0;
     padding:0;
+    box-sizing: border-box;
 }
 html,
 body {
@@ -37,13 +38,14 @@ body {
 }
 
 .content {
-    width: 100% auto;
-    height: 100% auto;
+    width: 90%; /* Ajusta el ancho del contenido según tus necesidades */
+    max-width: 600px; /* Ancho máximo del contenido */
+    text-align: center; /* Centra el contenido */
 }
 
 #universe {
     width: 100% auto;
-    height: 100% auto;
+    height: auto;
 }
 
 #footerContent {
@@ -53,7 +55,7 @@ body {
     width: 100%;
     position: fixed;
     bottom: 0%;
-    padding: 20%;
+    padding: 5%;
     text-align: center;
     z-index: 20;
 }
@@ -66,7 +68,7 @@ body {
 }
 
 #scene {
-    height: 100%;
+    height: auto;
     position: absolute;
     left: 50%;
     margin-left: -768px;
@@ -155,4 +157,34 @@ a:hover {
     border-radius: 5px; /* Bordes redondeados */
     cursor: pointer; /* Cursor al pasar el ratón */
     z-index: 9999;
+}
+@media only screen and (max-width: 768px) {
+    body {
+        display: block;
+    }
+
+    .container {
+        height: auto;
+    }
+
+    .love {
+        width: 10vw;
+        height: 10vw;
+        margin-top: -5vw;
+        margin-left: -5vw;
+    }
+
+    .love:before,
+    .love:after {
+        height: 10vw;
+        width: 10vw;
+    }
+
+    .love:before {
+        left: -5vw;
+    }
+
+    #youtubeButton {
+        bottom: 5%;
+    }
 }
