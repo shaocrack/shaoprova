@@ -1,38 +1,23 @@
-<!doctype html>
-<html lang="">
-  <head>
-    <meta charset="utf-8">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <title>ShaoValentin</title>
-
-    <!-- build:css styles/main.css -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Feliz San Valentín!</title>
     <link rel="stylesheet" href="styles/main.css">
-    <!-- endbuild -->
-    
-  </head>
-  <body>
+</head>
+<body>
     <div class="container">
-      <div class="content">
-        <canvas id="universe"></canvas>
-        <canvas id="canvas"></canvas>
-        <iframe src="audio/shaopro3.mp3" allow="autoplay" style="display:none" id="iframeAudio"></iframe>
-        <audio autoplay loop>
-        	<source src="audio/shaopro3.mp3" type="audio/mpeg">
-        </audio>
-        <div id="footer" class="">
-          <button id="youtubeButton" style="display:none;">Abrir canción de YouTube</button>
-          <svg id="scene" x="0%" y="0%" width="300%" height="100%">
-            <div class="love" style="display: none;"></div>
-          </svg>
-        
+        <div class="card">
+            <h1>¡Feliz San Valentín!</h1>
+            <p>¡Te quiero mucho!</p>
+            <div id="messages"></div>
+            <button id="animateButton">Mostrar Mensajes</button>
         </div>
-       
-      </div>
     </div>
-    <!-- build:js scripts/main.js -->
-    <script src="scripts/universe.js"></script>
+
+    <button class="video-button" id="videoButton">Ver Video Romántico</button>
+
     <script src="scripts/main.js"></script>
-    <!-- endbuild -->
-  </body>
+</body>
 </html>
